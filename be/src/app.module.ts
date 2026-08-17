@@ -7,6 +7,7 @@ import { AuthModule } from './features/auth/auth.module';
 import { UsersModule } from './features/users/users.module';
 import { RoomsModule } from './features/rooms/rooms.module';
 import { MessagesModule } from './features/messages/messages.module';
+import { RealtimeModule } from './features/realtime/realtime.module';
 
 @Module({
   imports: [
@@ -20,6 +21,7 @@ import { MessagesModule } from './features/messages/messages.module';
     UsersModule,
     RoomsModule,
     MessagesModule,
+    RealtimeModule,
   ],
 })
 export class AppModule {}
