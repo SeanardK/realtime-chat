@@ -74,6 +74,13 @@ cd be && npm test
 cd fe && npm test
 ```
 
+## Test accounts
+
+| Username | Email | Password |
+|----------|-------|----------|
+| user1 | user1@gmail.com | 12345678 |
+| user2 | user2@gmail.com | 12345678 |
+
 ## API summary
 
 | Method | Path | Description |
